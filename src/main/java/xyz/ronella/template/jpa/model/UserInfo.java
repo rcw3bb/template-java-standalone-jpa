@@ -1,4 +1,4 @@
-package com.example;
+package xyz.ronella.template.jpa.model;
 
 import jakarta.persistence.*;
 

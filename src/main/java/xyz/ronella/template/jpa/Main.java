@@ -1,10 +1,11 @@
-package com.example;
+package xyz.ronella.template.jpa;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
+import xyz.ronella.template.jpa.model.UserInfo;
 
-public class MainApplication {
+public class Main {
     public static void main(String ... args) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("samplePU");
         EntityManager em = emf.createEntityManager();

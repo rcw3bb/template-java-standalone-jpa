@@ -1,12 +1,12 @@
-package com.example;
+package xyz.ronella.template.jpa;
 
 import org.junit.jupiter.api.Test;
 
-public class MainApplicationTest {
+public class MainTest {
 
     @Test
     public void testMain() {
-        MainApplication.main();
+        Main.main();
     }
 
 }
